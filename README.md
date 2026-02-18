@@ -2,17 +2,31 @@
 
 Marketing website for **Aunty Saunta's Intellectual Development (ASID)**, an early learning startup near Wollongong serving children aged **2.5 to 6**.
 
+## 🚀 Quick Deploy Options
+
+**GitHub Pages (FREE)** - Recommended for sharing with friends  
+See [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md) for step-by-step instructions.
+
+**Vercel** - Alternative professional hosting  
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/johnnyhomez/asid)
+
+## Live Website
+
+Once deployed to GitHub Pages, your website will be available at:
+```
+https://johnnyhomez.github.io/asid
+```
 
 ## Tech Stack
 
-- Next.js (App Router + SSR)
+- Next.js (App Router + Static Export)
 - TypeScript
 - Tailwind CSS
 
-## 🚀 Quick Deploy
+## Detailed Deployment Guides
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions on deploying this website publicly.
+- **[GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md)** - Free hosting on GitHub (5 min setup)
+- **[DEPLOYMENT.md](DEPLOYMENT.md)** - Vercel and other hosting options
 
 ## Run Locally
 
@@ -25,6 +39,13 @@ Open http://localhost:3000.
 
 ## Production Build
 
+### For GitHub Pages (Static Export)
+```bash
+npm run build
+# Output will be in the 'out' directory
+```
+
+### For Vercel/Netlify (Server-Side Rendering)
 ```bash
 npm run build
 npm run start
