@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://johnnyhomez.github.io/asid";
+import { siteConfig } from "./config";
 
 export const metadata: Metadata = {
   title: {
@@ -31,7 +30,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(siteConfig.url),
   alternates: {
     canonical: "/",
   },
@@ -39,7 +38,7 @@ export const metadata: Metadata = {
     title: "ASID - Aunty Saunta's Intellectual Development",
     description:
       "Premium early learning facility near Wollongong for children aged 2.5 to 6. Advanced curriculum and exceptional care.",
-    url: siteUrl,
+    url: siteConfig.url,
     siteName: "ASID Early Learning",
     locale: "en_AU",
     type: "website",

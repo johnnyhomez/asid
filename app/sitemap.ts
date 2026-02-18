@@ -1,13 +1,12 @@
 import { MetadataRoute } from "next";
+import { siteConfig } from "./config";
 
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://johnnyhomez.github.io/asid";
-
   return [
     {
-      url: baseUrl,
+      url: siteConfig.url,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,

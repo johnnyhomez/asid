@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
+import { siteConfig } from "./config";
 
 export const metadata: Metadata = {
   title: "Home",
 };
 
 export default function Home() {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://johnnyhomez.github.io/asid";
-  
   return (
     <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-orange-50 to-pink-50">
       {/* JSON-LD Structured Data for Local Business */}
@@ -19,7 +18,7 @@ export default function Home() {
             name: "ASID - Aunty Saunta's Intellectual Development",
             description:
               "Premium early learning facility providing advanced intellectual development for children aged 2.5 to 6 years",
-            url: siteUrl,
+            url: siteConfig.url,
             telephone: "+61-X-XXXX-XXXX",
             email: "info@asid-earlylearning.com.au",
             address: {
