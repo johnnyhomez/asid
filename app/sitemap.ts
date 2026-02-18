@@ -1,7 +1,9 @@
 import { MetadataRoute } from "next";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.asid-earlylearning.com.au";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://johnnyhomez.github.io/asid";
 
   return [
     {
