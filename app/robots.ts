@@ -5,7 +5,6 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/private/"],
     },
     sitemap: "https://www.asid-earlylearning.com.au/sitemap.xml",
   };
