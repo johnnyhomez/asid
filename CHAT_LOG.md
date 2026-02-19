@@ -1,5 +1,3 @@
-Hello your memory seems to have been wiped when I executed the last command you prompted. below is what I prompted you to do however when I created blank project folder it seemed to reset the chat history for some reason not worry let's pick up where we left off. below is the initial request. let's see what you're capable of.
-
 I want you to build me a website for my auntie.  This website is for a new business startup. the business is an early learning facility that gives children a head start on key intellectual  fundamentals that far exceed standard national curriculum. Also to develop fundamental physical motor skills and high level problem solving.  Targeted at the age group of 2.5 to 6 years old. The business will be based near the wollongong area and search engine optimization should target all affluent surrounding areas. The website needs a bright, colorful, interactive, dynamic, cheerful composition that dazzles the eye.  I think a catchy name for the business would be  Aunty  Saunta's Intellectual Development or ASID.
 
 Please use placeholders for business details such as all contact details, address, ect as those details are yet to be finalised.
@@ -76,5 +74,6 @@ Project: ASID (Aunty Saunta's Intellectual Development)
 - Provide professional credential details for the About section.
 - Add real imagery/branding assets.
 - Set final domain and deploy.
+
 
 
