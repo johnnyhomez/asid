@@ -25,6 +25,7 @@ https://johnnyhomez.github.io/asid
 
 ## Detailed Deployment Guides
 
+- **[HOW_TO_MERGE_PR.md](HOW_TO_MERGE_PR.md)** - How to merge this PR to deploy the website
 - **[GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md)** - Free hosting on GitHub (5 min setup)
 - **[DEPLOYMENT.md](DEPLOYMENT.md)** - Vercel and other hosting options
 
